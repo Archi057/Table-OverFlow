@@ -1,0 +1,40 @@
+  table {
+    border-collapse: collapse;
+    width: 600px;
+    height: 400px;
+ }
+
+ table tr:nth-child(2n) {
+     background-color: white;
+ }
+
+ table td:first-child {
+     background-color: rgb(0, 255, 255);
+     
+    
+ }
+
+table tr {
+    background-color: aqua;
+}
+
+table thead {
+    text-align: right;
+}
+td {
+    text-align: center;
+   
+}
+
+.line {
+    background-color: rgb(204, 197, 197);
+    
+}
+
+.layer {
+    overflow: scroll;
+    width: 500px;
+    height: 300px;
+    padding: 5px;
+    border: 1px solid black;
+}
